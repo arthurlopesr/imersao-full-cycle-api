@@ -1,1 +1,11 @@
-GET http://localhost:3000
+GET http://localhost:3000/prefixo/test
+
+###
+GET http://localhost:3000/routes
+
+###
+GET http://localhost:3000/routes/64dbf482344b8bab5e26dedf
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
